@@ -1,5 +1,6 @@
 using System.Text;
 using API.Data;
+using API.Extensions;
 using API.Interfaces;
 using API.Services;
 using Microsoft.EntityFrameworkCore;
