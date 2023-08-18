@@ -1,7 +1,4 @@
-using System;
-using API.Entities;
-
-namespace API.Extensions
+namespace API.Entities
 {
     public class Message
     {
