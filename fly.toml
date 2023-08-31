@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for parmsdatingapp on 2023-08-28T09:47:26+01:00
+# fly.toml app configuration file generated for parmsdatingapp on 2023-08-31T09:24:09+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -10,9 +10,9 @@ primary_region = "lhr"
   image = "parms80/parmsdatingapp:latest"
 
 [env]
-  ASPNETCORE_URLS = "http://+:8080"
-  CloudinarySettings__ApiKey = "174962611172125"
-  CloudinarySettings__CloudName = "db4ogipsh"
+  ASPNETCORE_URLS="http://+:8080"
+  CloudinarySettings__CloudName="db4ogipsh"
+  CloudinarySettings__ApiKey="174962611172125"
 
 [http_service]
   internal_port = 8080
