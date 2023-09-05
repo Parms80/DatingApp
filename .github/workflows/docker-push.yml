@@ -25,4 +25,4 @@ jobs:
         with:
           context: "{{defaultContext}}:API"
           push: true
-          tags: parms80/datingapp:latest
+          tags: parms80/parmsdatingapp:latest
