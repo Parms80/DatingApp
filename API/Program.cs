@@ -52,7 +52,7 @@ app.UseCors(builder => builder
     .AllowAnyHeader()
     .AllowAnyMethod()
     .AllowCredentials()
-    .WithOrigins("https://localhost:4200"));
+    .WithOrigins("https://parmsdatingapp.fly.dev"));
 app.UseAuthentication();
 app.UseAuthorization();
 
